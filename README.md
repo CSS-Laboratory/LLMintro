@@ -6,7 +6,7 @@
 
 メディア研究を専攻する学部生のための、**LLM の内部表現を実際に取り出して観察する** ハンズオン講義ノートブックです。Google Colab の無料 T4 GPU 上で完結します。
 
-By: [Kunhao Yang](https://github.com/CSS-Laboratory) — CSS Laboratory, Shibaura Institute of Technology
+By: [Kunhao Yang](https://khyang-lab.org/) — CSS Laboratory, Shibaura Institute of Technology
 ---
 
 ## 学生用 (Students): 講義ノートブックを開く
