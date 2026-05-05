@@ -76,6 +76,9 @@ LLMintro/
 - Russell, J. A. (1980). *A circumplex model of affect.* JPSP.
 - Saravia et al. (2018). *CARER: Contextualized Affect Representations for Emotion Recognition.* EMNLP. (`dair-ai/emotion`)
 - Qwen Team (2025). [Qwen3-8B Model Card](https://huggingface.co/Qwen/Qwen3-8B).
+- Hussain, Z., Binz, M., Mata, R. et al. (2024). [A tutorial on open-source large language models for behavioral science.](https://doi.org/10.3758/s13428-024-02455-8) Behav. Res. 56, 8214–8237
+- Deep Manifold (2026). [Latent Space or Weight Space: Which One Is Primary](https://substack.com/@deepmanifold/p-192478658)
+- Akshay (2026). [How LLM Inference Works](https://x.com/akshay_pachaar/status/2050941458614751327)
 
 ---
 
