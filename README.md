@@ -11,7 +11,13 @@ By: [Kunhao Yang](https://khyang-lab.org/) — CSS Laboratory, Shibaura Institut
 
 ## 学生用 (Students): 講義ノートブックを開く
 
+### 第 1 回: LLM の内部表現を覗く
+
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CSS-Laboratory/LLMintro/blob/main/lecture_notebook.ipynb)
+
+### 第 2 回: メディア研究における LLM 応用
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CSS-Laboratory/LLMintro/blob/main/lecture2_applications_notebook.ipynb)
 
 上のバッジをクリックすると、Google Colab で直接ノートブックが開きます。
 
@@ -26,11 +32,19 @@ By: [Kunhao Yang](https://khyang-lab.org/) — CSS Laboratory, Shibaura Institut
 
 ## 講義の構成
 
+### 第 1 回
+
 1. **準備運動: LLM に届く前の私たちの言葉** ― チャットテンプレートと「思考モード」
 2. **ニューラルネットワーク入門** ― なぜ層を重ねると賢くなるのか (PyTorch MLP デモ)
 3. **Forward Hook: モデルの中を覗く窓** ― 隠れ状態を取り出す技術
 4. **感情ベクトルを抽出する** ― 280 個のストーリーから "怒り方向" を計算
 5. **感情ベクトルは何を表現しているのか?** ― 幾何学とラベル付き実テキストでの検証
+
+### 第 2 回
+
+1. **代理ラベリング** ― LLM を用いた気候変動否認論の内容分析
+2. **社会シミュレーション** ― FUSE 風の小さなエージェントネットワークで専門家介入と誤情報を観察
+3. **メカニズム分析** ― 気候合意と気候否認の内部表現、直線ステアリング、manifold steering の直感
 
 すべての解説は **日本語** で書かれており、コードセルは **デフォルトで折りたたまれて** います。コードに興味がない学生は文章と図だけを追って学べます。
 
@@ -60,11 +74,15 @@ By: [Kunhao Yang](https://khyang-lab.org/) — CSS Laboratory, Shibaura Institut
 LLMintro/
 ├── README.md                       ← このファイル
 ├── lecture_notebook.ipynb          ← 学生用 (講義の本体)
+├── lecture2_applications_notebook.ipynb
 ├── prepare_cache.ipynb             ← 講師用 (キャッシュ再生成)
 └── data/
     ├── stories_smoke.jsonl
     ├── activations_smoke.npz
-    └── emotion_vectors_smoke.npz
+    ├── emotion_vectors_smoke.npz
+    └── application/
+        ├── climate_denial_codebook.csv
+        └── climate_youtube_sample.csv
 ```
 
 ---
